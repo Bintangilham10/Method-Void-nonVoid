@@ -16,10 +16,8 @@ public class Class {
         this.sisi = sisi;
     }
     
-    int hitung(){
+    void hitung(){
         luas = sisi*sisi;
-        System.out.println("Luas Persegi sisi 6 adalah " +luas);
-        return luas;
-                
+        System.out.println("Luas Persegi sisi 6 adalah " +luas);            
     }
 }
